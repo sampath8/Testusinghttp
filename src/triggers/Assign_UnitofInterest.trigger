@@ -23,6 +23,7 @@ trigger Assign_UnitofInterest on Case (before insert, before update) {
             {
             
                 c.Unit_of_Interest__c=unitlst[0].Id;
+                
             } 
         }
     }
